@@ -1,6 +1,6 @@
 # docker 安装nginx、php-fpm
 ## 构成图如下
- !(https://github.com/xianqiangzhao/create_server/blob/master/img/photo1.png)
+ !(https://github.com/xianqiangzhao/create_server/blob/master/img/photo1.png?raw=true)
 
 # 前提是安装好docker 并启动
 ```
