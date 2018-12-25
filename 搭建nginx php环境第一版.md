@@ -3,12 +3,17 @@
 
 ![](https://github.com/xianqiangzhao/create_server/blob/master/img/photo1.png)
 # 前提是安装好docker 并启动
+# 建立nginx 的root目录
 ```
 cd /usr/local/
 mkdir  mynginx
 cd  mynginx
-mkdir app        #php 脚本 路径
-mkdir html       #nginx root 路径 
+mkdir html
+```
+# 建立php 脚本存放目录
+```
+cd /usr/local/mynginx
+mkdir app
 ```
 # 拉一个php-fpm
 ```
