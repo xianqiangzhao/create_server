@@ -71,5 +71,3 @@ curl localhost/index.php
  /usr/local/mynginx/html
  动态页面放到下
  /usr/local/mynginx/app
-
-
