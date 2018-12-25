@@ -1,5 +1,5 @@
 
-前提是安装好docker 并启动
+# 前提是安装好docker 并启动
 
 cd /usr/local/
 
@@ -36,6 +36,7 @@ sudo docker container run   --rm   --name mynginx   -v "$PWD/html":/usr/share/ng
 docker ps
 
 [rsa-key-20181224shotrong@instance-1 conf.d]$ sudo docker ps
+
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                NAMES
 ccd9ecccf64e        nginx               "nginx -g 'daemon of…"   10 minutes ago      Up 10 minutes       0.0.0.0:80->80/tcp   mynginx
 a69200655d51        bitnami/php-fpm     "php-fpm -F --pid /o…"   43 minutes ago      Up 43 minutes       9000/tcp             phpfpm
