@@ -6,6 +6,7 @@ cd /usr/local/
 mkdir  mynginx
 cd  mynginx
 mkdir app        #php 脚本 路径
+
 mkdir html       #nginx root 路径 
 
 # 拉一个php-fpm
